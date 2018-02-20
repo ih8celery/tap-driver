@@ -1,6 +1,5 @@
-version 1.0
-
 #What is tap?
+  version 1.0.0
 
   `tap` is a driver written in perl 5 for the Test Anything Protocol.
 I originally intended for tap to be a throwaway script I used in testing
@@ -10,7 +9,6 @@ README, as libtap++ provides most relevant test output. this script
 simply coordinates executions.
 
 #Usage
-
   `tap \[options\] \[files\]`
 
   `tap` expects to find any options before files; the first non-option
@@ -32,12 +30,10 @@ a brief summary after each group of tests. `-quiet` turns off this
 reporting.
 
 #Installation
-
   clone this repository and copy the script somewhere on your $PATH. I
 keep a bin/ directory in my $HOME for just this sort of thing.
 
 #Copyright and License Information
+  Copyright 2018 Adam Marshall.
 
-Copyright 2018 Adam Marshall.
-
-
+  See LICENSE for Licensing information
