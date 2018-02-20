@@ -9,7 +9,7 @@ README, as libtap++ provides most relevant test output. this script
 simply coordinates executions.
 
 #Usage
-  `tap \[options\] \[files\]`
+  `tap [options] [files]`
 
   `tap` expects to find any options before files; the first non-option
 is read as a file. if no files are found, `tap` assumes you want it to
@@ -18,9 +18,9 @@ directories, which are searched recursively (depth 1) for executables.
 `tap` runs the executables as it finds them.
 
   tap has three options, none of which may take arguments:
-      `-v|-version`   -> print the version number and exit
-      `-q|-quiet`     -> suppress report of tests failed
-      `-h|-help`      -> print a version of this help
+      . `-v|-version`   -> print the version number and exit
+      . `-q|-quiet`     -> suppress report of tests failed
+      . `-h|-help`      -> print a version of this help
 
 the second option may need some explanation for those not familiar with
 [TAP](https://testanything.org). after running tests, an executable may
