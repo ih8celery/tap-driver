@@ -18,9 +18,9 @@ directories, which are searched recursively (depth 1) for executables.
 `tap` runs the executables as it finds them.
 
   tap has three options, none of which may take arguments:
-      . `-v|-version`   -> print the version number and exit
-      . `-q|-quiet`     -> suppress report of tests failed
-      . `-h|-help`      -> print a version of this help
+      * `-v|-version`   -> print the version number and exit
+      * `-q|-quiet`     -> suppress report of tests failed
+      * `-h|-help`      -> print a version of this help
 
 the second option may need some explanation for those not familiar with
 [TAP](https://testanything.org). after running tests, an executable may
