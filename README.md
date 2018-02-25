@@ -1,14 +1,17 @@
 #What is tap?
-  version 1.0.0
+  version 1.1.0
 
-  `tap` is a driver written in perl 5 for the Test Anything Protocol.
+  `tap` is a simple test driver for the Test Anything Protocol. it has a
+version in perl 5 and another which will run on any POSIX shell.
 I originally intended for tap to be a throwaway script I used in testing
-[libtap++](https://github.com/ih8celery/libtap++), but now I use it as an alternative to testing with CTest
+[libtap++](https://github.com/ih8celery/libtap++), but now I use it as an alternative to debug testing with CTest
 in my CMake builds. the program is simple enough to describe in this 
 README, as libtap++ provides most relevant test output. this script
 simply coordinates executions.
 
 #Usage
+  the shell script takes only a list of files as arguments, so the
+following is written for the perl script.
   `tap [options] [files]`
 
   `tap` expects to find any options before files; the first non-option
