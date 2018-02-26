@@ -7,7 +7,7 @@ while [ ! "$#" -eq 0 ]; do
   if [ -x "$1" ]; then
    dir=`cd $(dirname $1) && pwd`
    file=$(basename $1)   
-   $dir/$file 
+   $dir/$file && echo ""
   else
     echo "error: expected argument to be executable"
     exit 1
